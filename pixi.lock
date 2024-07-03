@@ -15296,7 +15296,10 @@ packages:
   name: splinart
   version: 0.1.0
   path: .
-  sha256: 8d192a0bd5c89b95cd4560797f2b6b41f5b8bd51109e1da5fcc52d07007c9bce
+  sha256: c966ddd765b59dccc85061e4ec3c8f061033bd9bfadfa99d5cd1daf231edf968
+  requires_dist:
+  - numpy
+  - matplotlib
   requires_python: '>=3.8'
   editable: true
 - kind: conda
