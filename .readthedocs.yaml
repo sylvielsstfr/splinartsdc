@@ -19,10 +19,17 @@ build:
 sphinx:
   configuration: doc/conf.py
 
+
+python:
+  install:
+  - method: pip
+    path: .
+
 # Optionally build your docs in additional formats such as PDF and ePub
-# formats:
-#    - pdf
-#    - epub
+formats:
+    - pdf
+    - epub
+    - html
 
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
