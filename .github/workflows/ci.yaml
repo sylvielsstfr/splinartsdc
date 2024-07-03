@@ -19,7 +19,7 @@ jobs:
         pixi-version: v0.24.2
         cache: true
     - run: pixi run lint
-    
+
 
 
 
